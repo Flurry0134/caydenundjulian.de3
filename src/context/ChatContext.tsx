@@ -182,7 +182,7 @@ export const ChatProvider: React.FC<{ children: ReactNode }> = ({ children }) =>
       // SEHR WICHTIG: ERSETZE DIESE URL MIT DEINER AKTUELLEN NGROK-URL + "/ask"
       // Beispiel: const apiUrl = 'https://<deine-neue-ngrok-id>.ngrok-free.app/ask';
       // =======================================================================
-      const apiUrl = 'https://5de1-78-42-249-25.ngrok-free.app'; // ERSETZE DIES MIT DEINER AKTUELLEN NGROK URL!
+      const apiUrl = 'https://5de1-78-42-249-25.ngrok-free.app/ask';
 
       console.log(`Sende Anfrage an: ${apiUrl} mit Frage: "${content}"`);
 
